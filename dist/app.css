@@ -53,6 +53,8 @@
 .down-nav .second-nav-list li {
   padding: 0 23px 0 23px;
   line-height: 35px;
+  font-size: 14px;
+  font-weight: bold;
 }
 .down-nav .second-nav-list li:hover {
   background: #fff;
@@ -66,7 +68,7 @@
 }
 
 .jumbotron {
-  background-image: url(/images/hero.jpg?8b29a957bc4c220aea5804fdfdd1c467);
+  background-image: url(/images/hero-pe-8.jpg?8b29a957bc4c220aea5804fdfdd1c467);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -77,7 +79,7 @@
 .jumbotron .left-content {
   display: flex;
   flex-direction: column;
-  margin-right: 150px;
+  margin-right: 200px;
   color: #333333;
   margin-top: 55px;
 }
@@ -116,7 +118,8 @@
   margin: 14px 0 30px 0;
 }
 .jumbotron .left-content .left-content-first-title {
-  font-size: 35px;
+  font-size: 25px;
+  color: #000;
 }
 .jumbotron .jumbotron-list {
   list-style-type: none;
@@ -124,7 +127,8 @@
 .jumbotron .jumbotron-list li {
   margin-bottom: 15px;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 17px;
+  color: #000;
 }
 .jumbotron .jumbotron-list li i {
   font-size: 13px;
@@ -138,14 +142,35 @@
   margin-top: 20px;
   position: relative;
   height: 450px;
+  padding: 50px 0 0 20px;
 }
 .jumbotron .right-content .download-right-content-text {
   text-transform: uppercase;
+  color: #848484;
+  margin: 20px 0 20px 0;
+  font-size: 14px;
 }
 .jumbotron .right-content .right-content-logo {
   position: absolute;
   right: 10px;
   top: 25px;
+}
+.jumbotron .right-content .price {
+  font-size: 26px;
+  font-weight: bold;
+}
+.jumbotron .right-content .blue-button {
+  background: #009CFF;
+  color: #fff;
+  padding: 8px 30px 8px 30px;
+  width: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.jumbotron .right-content .blue-button:hover {
+  cursor: pointer;
 }
 
 .info-list {

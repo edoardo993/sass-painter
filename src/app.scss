@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family:  'Inter', sans-serif;
 }
+$background: url("../img/hero-pe-8.jpg");
 .container{
     width: 100vw;
     margin: 0 auto
@@ -44,7 +45,6 @@
         color: #fff;
         display: flex;
         list-style-type: none;
-        // align-items: center;
         margin-top: 10px;
         height: 35px;
 
@@ -55,6 +55,8 @@
         & li{
             padding: 0 23px 0 23px;
             line-height: 35px;
+            font-size: 14px;
+            font-weight: bold;
 
             &:hover{
                 background: #fff;
@@ -71,7 +73,7 @@
     }
 }
 .jumbotron{
-    background-image: url('../img/hero.jpg');
+    background-image: $background;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -82,7 +84,7 @@
     & .left-content{
         display: flex;
         flex-direction: column;
-        margin-right: 150px;
+        margin-right: 200px;
         color: #333333;
         margin-top: 55px;
 
@@ -122,7 +124,8 @@
             margin: 14px 0 30px 0
         }
         & .left-content-first-title{
-            font-size: 35px;
+            font-size: 25px;
+            color: #000
         }
     }
     & .jumbotron-list{
@@ -131,7 +134,8 @@
         & li{
         margin-bottom: 15px;
         margin-left: 10px;
-        font-size: 20px;
+        font-size: 17px;
+        color: #000;
 
             & i{
                 font-size: 13px;
@@ -147,14 +151,36 @@
         margin-top: 20px;
         position: relative;
         height: 450px;
+        padding: 50px 0 0 20px;
 
         & .download-right-content-text{
             text-transform: uppercase;
+            color: #848484;
+            margin: 20px 0 20px 0;
+            font-size: 14px;
         }
         & .right-content-logo{
             position: absolute;
             right: 10px;
             top: 25px
+        }
+        & .price{
+            font-size: 26px;
+            font-weight: bold;
+        }
+        & .blue-button{
+            background: #009CFF;
+            color: #fff;
+            padding: 8px 30px 8px 30px;
+            width: 150px;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
 }
