@@ -72,7 +72,7 @@
 }
 
 .jumbotron {
-  background-repeat: no-repeat;
+  background-image: url(/images/hero.jpg?8b29a957bc4c220aea5804fdfdd1c467);
   background-size: contain;
   display: flex;
   justify-content: flex-end;
@@ -109,8 +109,11 @@
 }
 .jumbotron .left-content .white-button .download-text {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
+}
+.jumbotron .left-content .white-button .for-mac-text {
+  font-size: 13px;
 }
 .jumbotron .left-content .white-button .download-icon {
   position: absolute;
@@ -200,7 +203,10 @@
   text-align: center;
   width: 1200px;
   margin: 0 auto;
+}
+.digital-art-made-simple .main-title-container {
   padding: 0 100px 0 100px;
+  margin-bottom: 50px;
 }
 .digital-art-made-simple .main-title {
   margin: 100px 0 25px 0;
@@ -209,4 +215,37 @@
 }
 .digital-art-made-simple p {
   font-size: 18px;
+}
+.digital-art-made-simple .fishes-img-container {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+.digital-art-made-simple .fishes-img-container img {
+  height: 600px;
+}
+.digital-art-made-simple .three-img-container {
+  display: flex;
+  margin-bottom: 200px;
+}
+.digital-art-made-simple .three-img-container .image-container {
+  padding: 0 60px 0 60px;
+}
+.digital-art-made-simple .three-img-container .image-container img {
+  height: 200px;
+}
+.digital-art-made-simple .three-img-container .image-container .brushes-link {
+  color: #333333;
+  text-decoration: underline;
+}
+.digital-art-made-simple .three-img-container .image-container .brushes-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.digital-art-made-simple .three-img-container .image-container h3 {
+  font-size: 36px;
+  margin: 60px 0 25px 0;
+}
+.digital-art-made-simple .three-img-container .image-container h4 {
+  font-size: 19px;
 }
