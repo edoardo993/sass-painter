@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family:  'Inter', sans-serif
 }
+@mixin size-container {
+    margin: 0 auto;
+    width: 1200px;
+}
+$background: "../img/hero.jpg";
+$white-background: "..img/intro-top.jpg";
+$flow-bckgrnd: "flow-icons-bg.png";
+$black-color: #000;
+$white-color: #fff;
+$black-background: #000

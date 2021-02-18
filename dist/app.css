@@ -94,12 +94,10 @@
 }
 
 .jumbotron {
-  background-image: url(/images/hero.jpg?8b29a957bc4c220aea5804fdfdd1c467);
+  background-image: url("../img/hero.jpg");
   background-position: center;
   display: flex;
   justify-content: flex-end;
-  margin: 0 auto;
-  width: 1200px;
 }
 @media screen and (max-width: 767px) {
   .jumbotron {
@@ -204,6 +202,7 @@
   color: #fff;
   width: 400px;
   margin-top: 20px;
+  margin-right: 110px;
   position: relative;
   height: 450px;
   padding: 50px 0 0 20px;
@@ -282,9 +281,10 @@
 }
 
 .digital-art-made-simple {
-  text-align: center;
-  width: 1200px;
   margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+  background: url("..img/intro-top.jpg");
 }
 .digital-art-made-simple .main-title-container {
   padding: 0 100px 0 100px;
@@ -314,6 +314,7 @@
 .digital-art-made-simple .three-img-container {
   display: flex;
   margin-bottom: 200px;
+  background: "flow-icons-bg.png";
 }
 @media screen and (max-width: 767px) {
   .digital-art-made-simple .three-img-container {
